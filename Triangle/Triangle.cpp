@@ -17,16 +17,16 @@ double Triangle::perimetr(double a, double b, double c)
 {
     return a + b + c;
 }
-double Triangle::ploshad(double a, double h)
+double Triangle::area(double a, double h)
 {
     return 0.5 * a * h;
 }
-double Triangle::storona(double a, double b)
+double Triangle::side(double a, double b)
 {
-    c =  pow(a, 2) + pow(b, 2);
+    c = pow(a, 2) + pow(b, 2);
     return sqrt(c);
 }
-double Triangle::ugol(double a, double b, double c)
+double Triangle::corner(double a, double b, double c)
 {
     return cos(a) * cos(c) / cos(a) * cos(b);
 }
